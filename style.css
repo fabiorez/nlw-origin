@@ -347,3 +347,65 @@ nav.show div.icon-close {
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
 }
+
+/*========== Testmonials ==========*/
+
+#testmonials {
+    background: white;
+}
+
+#testmonials .container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#testmonials header {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+}
+
+#testmonials blockquote {
+    padding: 2rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25rem;
+}
+
+#testmonials blockquote p {
+    position: relative;
+    text-indent: 1.875rem;
+    margin-bottom: 1.5rem;
+    color: var(--title-color);
+}
+
+#testmonials blockquote p span {
+    font: 700 2.5rem serif;    
+    position: absolute;
+    top: -0.375rem;
+    left: -1.875rem;
+    color: var(--base-color);
+}
+
+#testmonials cite {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+
+#testmonials cite img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    clip-path: circle();
+    margin-right: 0.5rem;
+}
+
+/* swiper */
+.swiper-slide {
+    height: auto;
+    padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--base-color);
+}

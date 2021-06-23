@@ -30,3 +30,13 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll')
   }
 })
+
+// testmonials carousel slider swiper
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mouseWheel: true,
+  keyboard: true
+})
